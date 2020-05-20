@@ -1,7 +1,7 @@
 from libs.openexchange import OpenExchangeClient
 import tkinter as tk
 from tkinter import ttk
-APP_ID="569a4c3347f940909e5343bdd822f93d"
+APP_ID="your api id here"
 
 def conversion():
     client = OpenExchangeClient(APP_ID)
